@@ -1,9 +1,9 @@
 module.exports = class {
   constructor(id) {
-    this.id = id;
+    this._id = id;
   }
 
   name() {
-    return `User-${this.id}`;
+    return `User-${this._id}`;
   }
 };
